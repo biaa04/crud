@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+<meta charset="utf-8">
+<title>Novo Local</title>
+</head>
+<body>
+<h1>Criar novo local</h1>
+	<form name="frmLocal" action="insertlocal">
+		<table>
+			<tr>
+				<td><input type="text" name="endereco" placeholder="Endereco"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="capacidade" placeholder="Capacidade"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" onClick="validarlocal()">
+	</form>
+	<script src="scripts/validadorlocal.js"></script>
+
+
+</body>
+</html>
